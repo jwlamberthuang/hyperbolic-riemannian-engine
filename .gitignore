@@ -1,0 +1,32 @@
+# Primes the repo to ignore compiled binaries and build artifacts
+build/
+bin/
+lib/
+
+# Object files, dependency files, and library archives
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.d
+
+# CMake generated files and caches locally
+CMakeCache.txt
+CMakeFiles/
+CMakeCheckOutputs/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# IDE and Editor specific configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Python automation script artifact (if kept inside the directory)
+__pycache__/
+*.pyc
