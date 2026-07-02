@@ -34,7 +34,7 @@ $$d_{\mathbb{H}}(u, v) = \text{acosh}(-\langle u, v \rangle_L)$$
 
 ### Phase 1: The Linear Baseline MVP (Current)
 
-* [ ] **Flat Layout Buffer:** A dense `std::vector<float>` sequence managed via `std::span` data windows.
+* [x] **Flat Layout Buffer:** A dense `std::vector<float>` sequence managed via `std::span` data windows.
 * [ ] **Lorentz Math Kernel:** Pure, deterministic implementations of the Minkowski inner product, hyperbolic distance, and tangent space projections.
 * [ ] **$O(N)$ Ground-Truth Reference Scanner:** A brute-force linear search suite used as the absolute correctness baseline to evaluate future lossy compression indices.
 * [ ] **Trajectory Generation Harness:** A synthetic simulation driver running multi-particle Riemannian Gradient Descent (RGD) to populate tracking paths.

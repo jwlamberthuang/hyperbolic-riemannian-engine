@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.20)
 add_executable(engine_tests
     test_main.cpp
     test_math.cpp
+    test_trajectory_store.cpp
 )
 
 target_link_libraries(engine_tests PRIVATE hyperbolic_engine)
